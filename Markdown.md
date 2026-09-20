@@ -60,3 +60,9 @@ Para uma lista de tarefas, iniciar com - [] e o item. Para marcar o item, basta 
 - [ ] Item 1
 - [ ] Item 2
 - [x] Item marcado
+
+### Linha
+
+Para adicionar uma linha, basta dar 3 - no inicio da linha
+---
+
