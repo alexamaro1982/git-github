@@ -66,3 +66,32 @@ Para uma lista de tarefas, iniciar com - [] e o item. Para marcar o item, basta 
 Para adicionar uma linha, basta dar 3 - no inicio da linha
 ---
 
+ ### Comando e linha de códigos
+
+ Para representar um comando basta colocar o comando emtre crases.
+
+ __Exemplo:__ 
+ `print()`
+ `int(input())`
+
+Já um código, só colocar 3 crases no início e 3 crases no final.
+
+__Exemplo:__
+
+```
+from rich import print
+
+
+class Funcionario:
+    #Atributos de Classe
+    empresa = "Virtual Telecom"
+    def __init__(self, nome, setor, cargo):
+        self.nome = nome
+        self.setor = setor
+        self.cargo = cargo
+
+
+    def apresentar(self):
+        return (f':handshake: Olá, me nome é [bright_blue]{self.nome}[/], sou [bright_green]{self.cargo}[/]'
+                f' e do setor [yellow2]{self.setor}[/] na empresa {Funcionario.empresa}. :waving_hand:')
+```
