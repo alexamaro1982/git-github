@@ -95,3 +95,15 @@ class Funcionario:
         return (f':handshake: Olá, me nome é [bright_blue]{self.nome}[/], sou [bright_green]{self.cargo}[/]'
                 f' e do setor [yellow2]{self.setor}[/] na empresa {Funcionario.empresa}. :waving_hand:')
 ```
+
+### Emojis
+
+Para adicionar mogis, é bem fácil. Somente compiar o código unicode do emoji entre ::.
+
+Um repositório muito bom do Github com códigos de emoji estão [aqui](https://github.com/ikatyang/emoji-cheat-sheet).
+
+__Exemplos:__
+:smiling_face_with_three_hearts:
+:clap:
+:raised_hands:
+
