@@ -107,3 +107,8 @@ __Exemplos:__
 :clap:
 :raised_hands:
 
+### Quote
+
+Para criar um quote basta iniciar a frase com >
+
+> Que horas são???
